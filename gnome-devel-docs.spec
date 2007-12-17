@@ -7,7 +7,6 @@ Source0: ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz
 Group: Books/Other
 Url: http://www.gnome.org/
 BuildArch: noarch
-BuildRoot: %{_tmppath}/%{name}-%{version}-root
 BuildRequires: scrollkeeper pkgconfig
 BuildRequires: gnome-doc-utils >= 0.5.6
 Requires(post): scrollkeeper >= 0.3

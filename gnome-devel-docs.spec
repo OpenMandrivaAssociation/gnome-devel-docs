@@ -1,6 +1,6 @@
 Summary: GNOME Developer Documentation
 Name: gnome-devel-docs
-Version: 2.20.0
+Version: 2.21.1
 Release: %mkrel 1
 License: GPL
 Source0: ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2

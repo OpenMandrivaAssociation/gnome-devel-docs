@@ -1,7 +1,7 @@
 Summary: GNOME Developer Documentation
 Name: gnome-devel-docs
 Version: 2.26.0
-Release: %mkrel 1
+Release: %mkrel 2
 License: GFDL
 Source0: ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
 Group: Books/Other
@@ -29,7 +29,7 @@ and an Overview of the GNOME Platform.
 
 %find_lang %{name} --with-gnome --all-name
 rm -rf %buildroot/var/lib/scrollkeeper
-for omf in %buildroot%_datadir/omf/*/*-??*.omf;do 
+for omf in %buildroot%_datadir/omf/*/*[_-]??.omf;do 
 echo "%lang($(basename $omf|sed -e s/.*-// -e s/.omf//)) $(echo $omf|sed -e s!%buildroot!!)" >> %name.lang
 done
 

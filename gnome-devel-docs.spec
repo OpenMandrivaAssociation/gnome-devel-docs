@@ -22,7 +22,8 @@ and an Overview of the GNOME Platform.
 
 %build
 %configure2_5x
-%make
+#gw broken in 2.28.1
+make
 
 %install
 %makeinstall_std

@@ -1,7 +1,7 @@
 Summary: GNOME Developer Documentation
 Name: gnome-devel-docs
 Version: 2.32.0
-Release: %mkrel 1
+Release: %mkrel 2
 License: GFDL
 Source0: ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
 Group: Books/Other

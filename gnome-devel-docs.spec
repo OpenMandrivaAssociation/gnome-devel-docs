@@ -2,7 +2,7 @@
 
 Summary:		GNOME Developer Documentation
 Name:			gnome-devel-docs
-Version:		3.4.1
+Version:		3.6.2
 Release:		%mkrel 1
 License:		GFDL
 Source0:		http://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
@@ -12,6 +12,7 @@ BuildArch:		noarch
 BuildRequires:		scrollkeeper
 BuildRequires:		pkgconfig
 BuildRequires:		gnome-doc-utils >= 0.5.6
+BuildRequires:		gnome-doc-utils-devel
 Requires(post):		scrollkeeper >= 0.3
 Requires(postun):	scrollkeeper >= 0.3
 

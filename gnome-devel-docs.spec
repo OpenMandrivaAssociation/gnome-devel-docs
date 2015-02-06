@@ -3,7 +3,7 @@
 Summary:		GNOME Developer Documentation
 Name:			gnome-devel-docs
 Version:		3.6.2
-Release:		%mkrel 1
+Release:		2
 License:		GFDL
 Source0:		http://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 Group:			Books/Other

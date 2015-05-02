@@ -9,12 +9,13 @@ Source0:		http://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version
 Group:			Books/Other
 Url:			http://developer.gnome.org/
 BuildArch:		noarch
-BuildRequires:		scrollkeeper
+BuildRequires:		itstool
 BuildRequires:		pkgconfig
 BuildRequires:		gnome-doc-utils >= 0.5.6
 BuildRequires:		gnome-doc-utils-devel
-Requires(post):		scrollkeeper >= 0.3
-Requires(postun):	scrollkeeper >= 0.3
+BuildRequires:		itstool
+BuildRequires:		libxml2-utils
+BuildRequires:		intltool
 
 %description
 This package contains the GNOME Handbook, the GNOME Documentation Style Guide
@@ -24,15 +25,13 @@ and an Overview of the GNOME Platform.
 %setup -q
 
 %build
-%configure2_5x
-#gw broken in 2.28.1
+%configure
 %make
 
 %install
 %makeinstall_std
 
 %find_lang %{name} --with-gnome --all-name
-rm -rf %buildroot/var/lib/scrollkeeper
 
 %files -f %{name}.lang
 %doc NEWS  README AUTHORS

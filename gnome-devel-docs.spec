@@ -3,7 +3,7 @@
 
 Summary:		GNOME Developer Documentation
 Name:			gnome-devel-docs
-Version:		3.30.1
+Version:		3.30.2
 Release:		1
 License:		GFDL
 Source0:		http://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz

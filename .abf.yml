@@ -1,7 +1,2 @@
-removed_sources:
-  gnome-devel-docs-3.16.1.tar.xz: f267cbe6ffe2d96dfb2c05428f7d9ae524b6ef20
-  gnome-devel-docs-3.6.2.tar.xz: 455de590f6fa476a501dabac47e1a4b48e9885d4
 sources:
-  gnome-devel-docs-3.18.1.tar.xz: d0fdd72a1609c118f4a2074e7e99496cb7d83f70
-  gnome-devel-docs-3.30.1.tar.xz: a3ac3b70bb24571b8431762d5fc3dda83cc6c328
-  gnome-devel-docs-3.30.2.tar.xz: 9f367ce8be14dbd9284c91e2847b9340ec082cf3
+  gnome-devel-docs-3.32.1.tar.xz: eceedb93c2f83b2613a6ceffdf2974fc994efeb9

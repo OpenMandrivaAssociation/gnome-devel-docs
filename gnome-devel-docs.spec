@@ -3,7 +3,7 @@
 
 Summary:		GNOME Developer Documentation
 Name:			gnome-devel-docs
-Version:		40.0
+Version:		40.3
 Release:		1
 License:		GFDL
 Source0:		http://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz

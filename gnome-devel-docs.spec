@@ -8,7 +8,7 @@ Release:		1
 License:		GFDL
 Source0:		http://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 Group:			Books/Other
-Url:			http://developer.gnome.org/
+Url:			https://developer.gnome.org/
 BuildArch:		noarch
 BuildRequires:		itstool
 BuildRequires:		pkgconfig

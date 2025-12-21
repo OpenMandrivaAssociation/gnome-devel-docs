@@ -10,6 +10,11 @@ Source0:		http://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version
 Group:			Books/Other
 Url:			https://developer.gnome.org/
 BuildArch:		noarch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:		itstool
 BuildRequires:		pkgconfig
 BuildRequires:		gnome-doc-utils >= 0.5.6
